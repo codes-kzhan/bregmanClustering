@@ -1,0 +1,12 @@
+dataBase =1:== {'events_OL_development','events_OS_development_instance','events_OS_development_instance_EBR0','events_OS_development_instance_replicates','events_OL_test','events_OS_test_instance','events_OS_test_instance_replicates','events_OS_test_instance_EBR0','events_OS_test_instance_EBR6','events_OS_test_instance_replicates_EBR0'}
+features =1:== {'spec','logspec','logmel','loglogmel','mfcc','mfcc40'}
+snr =1:== [-18,-12,-6,0,1,2,6,12] 
+method =2== {'bregman', 'kmeans', 'random','kproducts'}
+divergences =2=4/1= {'eu','kl','is'}
+maxIter =2== 30
+replicates =2== [1 10]
+frameTime =1:== [.025,.1,.2];
+winTime =1:== .025;
+hopTime =1:== .01;
+normalize =1:== [0,1]
+pooling =1:== {'average', 'max', 'maxFreq'}
